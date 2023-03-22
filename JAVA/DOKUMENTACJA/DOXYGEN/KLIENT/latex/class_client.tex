@@ -1,0 +1,251 @@
+\hypertarget{class_client}{}\doxysection{Client Class Reference}
+\label{class_client}\index{Client@{Client}}
+Inheritance diagram for Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_client}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_client_a5cce2088b950e7c4206d55900ea1f3c8}{start}} (Stage stage)  throws Exception 
+\item 
+\mbox{\hyperlink{class_node_value}{Node\+Value}} \mbox{\hyperlink{class_client_aea51c3c495f49ec53db76bdef5ee6b7a}{add\+Recursive}} (\mbox{\hyperlink{class_node_value}{Node\+Value}} current, String value)
+\item 
+void \mbox{\hyperlink{class_client_af86b3c02c5e8331e4d85e3b5a9f7c629}{draw\+Node\+Recursive}} (int x1, int y1, int x, int y, \mbox{\hyperlink{class_node_value}{Node\+Value}} node\+Value, int length, int counter, int space)
+\item 
+void \mbox{\hyperlink{class_client_ad2b07c5a2d68aa91c975954f3331f624}{set\+Top\+Text}} (Stage stage)  throws IOException, Interrupted\+Exception 
+\item 
+void \mbox{\hyperlink{class_client_a34a27c0437d636f729feadf3c22e73da}{exit\+Stage}} (Stage stage)
+\item 
+Array\+List$<$ String $>$ \mbox{\hyperlink{class_client_a0589257cc9b18e5d773af6698e037a7e}{return\+String\+Array}} (String string)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_client_ab9b892ebe4b84667bfe6da7181385481}{main}} (String\mbox{[}$\,$\mbox{]} args)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+KLASA CLIENT 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_client_aea51c3c495f49ec53db76bdef5ee6b7a}\label{class_client_aea51c3c495f49ec53db76bdef5ee6b7a}} 
+\index{Client@{Client}!addRecursive@{addRecursive}}
+\index{addRecursive@{addRecursive}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{addRecursive()}{addRecursive()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_node_value}{Node\+Value}} Client.\+add\+Recursive (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node_value}{Node\+Value}}}]{current,  }\item[{String}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA ADDRECURSIVE 
+\begin{DoxyParams}{Parameters}
+{\em current} & \\
+\hline
+{\em value} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+PRZYPADEK GDY CURRENT NODE JEST NULL
+
+JESLI DZREWA SA TYPU LICZBOWEGO
+
+PRZYPADEK GDY VALUE JEST MNIEJSZE OD WARTOSCI OJCA
+
+PRZYPADEK GDY VALUE JEST WIEKSZE LUB ROWNE OD OJCA
+
+JESLI DRZEWA SA TYPU STRING
+
+PRZYPADEK GDY VALUE JEST MNIEJSZE OD WARTOSCI OJCA
+
+PRZYPADEK GDY VALUE JEST WIEKSZE LUB ROWNE OD OJCA\mbox{\Hypertarget{class_client_af86b3c02c5e8331e4d85e3b5a9f7c629}\label{class_client_af86b3c02c5e8331e4d85e3b5a9f7c629}} 
+\index{Client@{Client}!drawNodeRecursive@{drawNodeRecursive}}
+\index{drawNodeRecursive@{drawNodeRecursive}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{drawNodeRecursive()}{drawNodeRecursive()}}
+{\footnotesize\ttfamily void Client.\+draw\+Node\+Recursive (\begin{DoxyParamCaption}\item[{int}]{x1,  }\item[{int}]{y1,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{\mbox{\hyperlink{class_node_value}{Node\+Value}}}]{node\+Value,  }\item[{int}]{length,  }\item[{int}]{counter,  }\item[{int}]{space }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA DRAWNODERECURSIVE 
+\begin{DoxyParams}{Parameters}
+{\em x1} & \\
+\hline
+{\em y1} & \\
+\hline
+{\em x} & \\
+\hline
+{\em y} & \\
+\hline
+{\em node\+Value} & \\
+\hline
+{\em length} & \\
+\hline
+{\em counter} & \\
+\hline
+{\em space} & \\
+\hline
+\end{DoxyParams}
+DEKLARACJA ZMIENNYCH
+
+JESLI JESTESMY NA KORZENIU
+
+W PRZECIWNYM WYPADKU
+
+ARGUMENTY NODEA
+
+DZIALANIA NA TEXT
+
+JESLI COKOLWIEK WYCHODZI POZA EKRAN
+
+DRUKOWANIE PO LEWYM PODDRZEWIE
+
+DRUKOWANIE PO PRAWYM PODDRZEWIE\mbox{\Hypertarget{class_client_a34a27c0437d636f729feadf3c22e73da}\label{class_client_a34a27c0437d636f729feadf3c22e73da}} 
+\index{Client@{Client}!exitStage@{exitStage}}
+\index{exitStage@{exitStage}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{exitStage()}{exitStage()}}
+{\footnotesize\ttfamily void Client.\+exit\+Stage (\begin{DoxyParamCaption}\item[{Stage}]{stage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA EXITSTAGE 
+\begin{DoxyParams}{Parameters}
+{\em stage} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_ab9b892ebe4b84667bfe6da7181385481}\label{class_client_ab9b892ebe4b84667bfe6da7181385481}} 
+\index{Client@{Client}!main@{main}}
+\index{main@{main}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily static void Client.\+main (\begin{DoxyParamCaption}\item[{String\mbox{[}$\,$\mbox{]}}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+FUNKCJA GLOWNA MAIN 
+\begin{DoxyParams}{Parameters}
+{\em args} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_client_a0589257cc9b18e5d773af6698e037a7e}\label{class_client_a0589257cc9b18e5d773af6698e037a7e}} 
+\index{Client@{Client}!returnStringArray@{returnStringArray}}
+\index{returnStringArray@{returnStringArray}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{returnStringArray()}{returnStringArray()}}
+{\footnotesize\ttfamily Array\+List$<$ String $>$ Client.\+return\+String\+Array (\begin{DoxyParamCaption}\item[{String}]{string }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA ZWRACA KOD DRZEWA JAKO TABLICE STRINGOW 
+\begin{DoxyParams}{Parameters}
+{\em string} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+ZMIENNE
+
+SEPARACJA\mbox{\Hypertarget{class_client_ad2b07c5a2d68aa91c975954f3331f624}\label{class_client_ad2b07c5a2d68aa91c975954f3331f624}} 
+\index{Client@{Client}!setTopText@{setTopText}}
+\index{setTopText@{setTopText}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{setTopText()}{setTopText()}}
+{\footnotesize\ttfamily void Client.\+set\+Top\+Text (\begin{DoxyParamCaption}\item[{Stage}]{stage }\end{DoxyParamCaption}) throws IOException, Interrupted\+Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA SETTOPTEXT 
+\begin{DoxyParams}{Parameters}
+{\em stage} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em IOException} & \\
+\hline
+{\em Interrupted\+Exception} & \\
+\hline
+\end{DoxyExceptions}
+ZCZYTANIE WARTOSCI Z SERWERA I USTAWIENIE W TOPTEXT
+
+JESLI SERWER KONCZY PRACE Z UZYTKOWNIKIEM
+
+ZMIANA PARAMETRU TREE\+\_\+\+TYPE\mbox{\Hypertarget{class_client_a5cce2088b950e7c4206d55900ea1f3c8}\label{class_client_a5cce2088b950e7c4206d55900ea1f3c8}} 
+\index{Client@{Client}!start@{start}}
+\index{start@{start}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{start()}{start()}}
+{\footnotesize\ttfamily void Client.\+start (\begin{DoxyParamCaption}\item[{Stage}]{stage }\end{DoxyParamCaption}) throws Exception\hspace{0.3cm}{\ttfamily [inline]}}
+
+FUNKCJA STARTUJACA APLIKACJE 
+\begin{DoxyParams}{Parameters}
+{\em stage} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Exception} & \\
+\hline
+\end{DoxyExceptions}
+INICJACJA ZMIENNYCH
+
+DZIALANIA NA STAGE
+
+DZIALANIA NA TOPLABEL
+
+DZIALANIA NA TOPTEXT
+
+DZIALANIA NA CENTERLABEL
+
+DZIALANIA NA CENTERSCROLLPANE
+
+DZIALANIA NA BOTTOMTEXTFIELD
+
+DZIALANIA NA BORDERPANE
+
+DZIALANIA NA TREE\+\_\+\+TYPE
+
+DZIALANIA NA SHOW\+\_\+\+INSTRUCTION
+
+LACZENIE Z SERWEREM
+
+WYSYLANIE DO SERWERA
+
+ODBIERANIE Z SERWERA
+
+LAPANIE WYJATKOW
+
+LAPANIE WYJATKOW
+
+DZIALANIA NA FINALSTAGE
+
+REAKCJA NA DZIALANIA UZYTKOWNIKA NA KLAWIATURZE NA BOTTOMTEXTFIELD
+
+FUNKCJA WYWOLANA PO DZIALANIU UZYTKOWNIKA 
+\begin{DoxyParams}{Parameters}
+{\em key\+Event} & \\
+\hline
+\end{DoxyParams}
+JESLI UZYTKOWNIK NACISNIE ENTER
+
+ZCZYTANIE KOMENDY OD UZYTKOWNIKA, WYSLANIE DO SERWERA
+
+USTAWIENIE CENTERBORDERPANE
+
+WYSWIETLENIE WIADOMOSCI OD SERWERA
+
+JESLI SERWER ODSYLA NIESTATYCZNA KOMENDE
+
+PRZYPISANIE KODU DRZEWA BINARNEGO
+
+UTWORZENIE CENTERPANE
+
+PRZYPISANIE KORZENIA
+
+UTWORZENIE DRZEWA U KLIENTA
+
+USTAWIENIE OUT\+\_\+\+OF\+\_\+\+SPACE NA WARTOSC POCZATKOWA
+
+WYSWIETLENIE DRZEWA W STAGE
+
+JESLI DRZEWO WYBIEGA POZA EKRAN
+
+DODANIE STACKPANE DO SCROLLPANE
+
+LAPANIE WYJATKOW
+
+LAPANIE WYJATKOW
+
+JESLI UZYTKOWNIK NACISNIE MOUSE1 NA BOTTOMTEXTFIELD
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Client.\+java\end{DoxyCompactItemize}
